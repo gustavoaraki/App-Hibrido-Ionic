@@ -1,0 +1,28 @@
+<ion-view style="" id="page2" title="Menu">
+    <ion-nav-bar class="bar-positive" </ion-nav-bar>
+    <ion-content class="has-header" scroll="false" overflow-scroll="true" padding="true">
+        <ion-list style="">
+            <ion-item style="" ng-repeat="category in categories" ui-sref="tabsController.selecione" class="item-thumbnail-left" ng-click="select(category)">
+                <img src="img/dBCmMjwFRXKeTc7eNjYv_pizza2.jpg">
+                <h2> {{category.NOME}}</h2>
+                <p>{{category.DESCRI}}</p>
+                <h3>R$ {{category.PRECO}}</h3>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
+
+          <!-- ng-click="insertProduct(1)"      <img src="img/NPf88eieTuyW0mh19azY_pizza.png">
+                <h2>Mussarela</h2>
+                <p>Queijo,tomate,azeitona,milho</p>
+            </ion-item>
+            <ion-item style="" ui-sref="tabsController.selecione" class="item-thumbnail-left" ng-click="insertProduct(2)">
+                <img src="img/dBCmMjwFRXKeTc7eNjYv_pizza2.jpg">
+                <h2>Calabresa</h2>
+                <p>Queijo,tomate,calabresa</p>
+            </ion-item>
+            <ion-item style="" ui-sref="tabsController.selecione" class="item-thumbnail-left" ng-click="insertProduct(3)">
+                <img src="img/KmvK7suiRViBD4bDaDmU_pizza3.jpg">
+                <h2>Portuguesa</h2>
+                <p>Queijo,presunto,milho,tomate e ovo</p>
+            -->

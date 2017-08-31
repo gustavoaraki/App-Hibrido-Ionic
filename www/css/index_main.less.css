@@ -1,0 +1,293 @@
+.cor {
+  background-color: #990000;
+  padding-bottom: 800px;
+}
+.figure-align {
+  display: table;
+  margin: 0px auto;
+}
+.figure-align img {
+  width: 100%;
+}
+.image-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media all {
+  .scale-image img {
+    width: 80px;
+  }
+}
+@media all {
+  .d-margins {
+    margin-bottom: 20px;
+  }
+}
+@media all {
+  .texto {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: serif;
+  }
+}
+@media all {
+  
+}
+.top_ajust {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.remote {
+  width: 320px;
+  height: 240px;
+}
+.local {
+  position: relative;
+  top: -90px;
+  width: 120px;
+  height: 80px;
+}
+.chatwidget {
+  border: 1px solid black;
+}
+.webrtcinput {
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.webrtcbutton {
+  margin: 0px 10px;
+  position: relative;
+  top: 0px;
+}
+span.narrow-control {
+  display: inline-block;
+}
+span.narrow-control.hidden {
+  display: none;
+}
+label.narrow-control {
+  width: auto;
+  float: none;
+  padding-right: 1em;
+}
+label.narrow-control + * {
+  width: 100% !important;
+}
+.label-inline {
+  display: table-cell !important;
+  vertical-align: middle;
+}
+.label-top-left,
+.label-top-right {
+  width: auto !important;
+  display: block;
+  padding: 8px 4px 0px;
+}
+.label-top-left + *,
+.label-top-right + * {
+  display: block;
+}
+.label-top-left {
+  text-align: left !important;
+}
+.label-top-right {
+  text-align: right !important;
+}
+label.narrow-control:empty {
+  display: none !important;
+}
+label.narrow-control:empty + .wide-control {
+  display: block;
+}
+#afui .narrow-control .webrtcbutton {
+  top: -8px;
+  margin: 0px 10px;
+}
+#afui .with-label label.narrow-control {
+  float: none;
+}
+#afui .with-label label.narrow-control + * {
+  display: block;
+  width: 100% !important;
+  margin-bottom: 0 !important;
+}
+#afui .with-label label.narrow-control:empty {
+  display: none;
+}
+#afui .with-label .label-inline {
+  width: 30%;
+  vertical-align: middle;
+}
+#afui .with-label .label-top-left,
+#afui .with-label .label-top-right {
+  width: auto !important;
+  display: block;
+  padding: 8px 4px 4px;
+}
+#afui .with-label .label-top-left {
+  text-align: left !important;
+}
+#afui .with-label .label-top-right {
+  text-align: right !important;
+}
+@media all {
+  .login,
+  .table-thing.login {
+    min-width: 220px;
+    max-width: 320px;
+  }
+  .login,
+  .table-thing.login {
+    min-width: 220px;
+    max-width: 320px;
+  }
+  .login > .narrow-control button {
+    width: 100px;
+  }
+  .login > .narrow-control {
+    text-align: right;
+  }
+}
+.vertical-col > ion-list.widget,
+.vertical-col > .widget.item-radio,
+.vertical-col > .widget.item-toggle,
+.vertical-col > .widget.list,
+.vertical-col > .widget.item-select,
+.vertical-col > .widget.item-checkbox,
+.vertical-col > .widget.button {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+.vertical-col > .widget.item.range,
+.vertical-col > .widget.button-bar,
+.vertical-col > .widget.tabs {
+  margin-left: 0;
+  width: 100%;
+}
+.vertical-col > .widget.item-input {
+  margin-left: 0;
+  display: inline-flex;
+  width: 100%;
+}
+.vertical-col > .widget.item-input.item-floating-label,
+.vertical-col > .widget.item-input.item-stacked-label {
+  margin-left: 0;
+  display: inline-block;
+  width: 100%;
+}
+@media all {
+  
+}
+.button-top {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.left-receptacle {
+  float: left;
+}
+.right-receptacle {
+  float: right;
+}
+[data-uib="media/text"] p:first-of-type {
+  margin-top: 0px;
+}
+.ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@media all {
+  .texto2_label p {
+    color: #ffffff;
+  }
+}
+@media all {
+  .texto_label > div.widget-container.left-receptacle {
+    text-align: right;
+  }
+}
+@media all {
+  .btn_login_style {
+    height: 0px     !important;
+    width: 360px   !important;
+    border-radius: 0px !important;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media all {
+  .txt_pass {
+    text-align: left;
+  }
+}
+.bar > .buttons .d-margins {
+  margin: auto;
+}
+.bar {
+  z-index: 1;
+}
+.upage-outer.fixed-header-footer {
+  position: static;
+}
+.uib-button-bar .d-margins {
+  margin: 0;
+}
+@media all {
+  .default-button-bar-height {
+    height: 200px;
+  }
+}
+@media all {
+  .default-graphic-button {
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    background-color: #ffffff;
+  }
+}
+@media all {
+  .hover-graphic-button:hover {
+    border-radius: 5px;
+    background-color: #eeeeee;
+  }
+}
+@media all {
+  .active-graphic-button:active {
+    border-radius: 5px;
+    background-color: #dddddd;
+  }
+}
+@media all {
+  .default-graphic-text {
+    text-align: center;
+  }
+}
+@media all {
+  .default-image-sizing > img {
+    width: 50px;
+  }
+}
+@media all {
+  .default-graphic-sizing {
+    width: 150px !important;
+    -webkit-flex: 0 0 auto !important;
+    -moz-flex: 0 0 auto !important;
+    -ms-flex: 0 0 auto !important;
+    -o-flex: 0 0 auto !important;
+    flex: 0 0 auto !important;
+    padding: 5px;
+  }
+}
+@media all {
+  
+}
+.alinhar {
+  height: 40px;
+  position: relative;
+}

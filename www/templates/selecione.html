@@ -1,0 +1,31 @@
+<ion-view style="" id="page8" title="Selecione">
+    <ion-nav-bar class="bar-positive"> </ion-nav-bar>
+    <ion-content class="has-header" overflow-scroll="false" padding="true">
+        <h2 style="color: rgb(0, 0, 0);" id="selecione-heading6">Você escolheu este item..</h2>
+        <div style="width: 283px; height: 41px;" class="spacer"></div>
+        <ion-list style="">
+            <ion-item style="" class="item-thumbnail-left">
+                <img src="img/dBCmMjwFRXKeTc7eNjYv_pizza2.jpg">
+                <h2> {{nome}} </h2>
+                <p>  {{descri}} </p>
+                <h3 style="color:green"> R$ {{preco}} </h3>
+            </ion-item>
+        </ion-list>
+        <form style="" class="list">
+            <label style="" name="quantidade" class="item item-input">
+                <span class="input-label">Quantidade :</span>
+                <input placeholder="1" min="1" type="tel" ng-model="total.val">
+            </label> 
+        </form>
+       
+        <form style="" class="list">
+            <label style="" name="valor" class="item item-input">
+                <span class="input-label">Valor : R$ {{preco}} </span>
+            </label>
+        </form>
+        <div style="" class="button-bar">
+            <a class="button button-assertive  button-block icon ion-android-cancel" style="font-weight:;" id="selecione-button10" ui-sref="tabsController.menu"></a>
+            <a class="button button-balanced  button-block icon ion-android-done" style="font-weight:;" id="selecione-button12" ui-sref="tabsController.carrinho" ng-click="$root.callCompra()"></a>
+        </div>
+    </ion-content>
+</ion-view>

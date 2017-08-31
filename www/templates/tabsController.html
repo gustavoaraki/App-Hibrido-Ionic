@@ -1,0 +1,15 @@
+<ion-view style="" id="page1" title="Tabs Controller" >
+    <ion-tabs style="" class="tabs-stable tabs-background-positive tabs-color-light tabs-top">
+        <ion-tab style="" title="Localidade" icon="ion-search" href="#/page1/localidade">
+            <ion-nav-view name="tab1"></ion-nav-view>
+        </ion-tab>
+    <ion-tab style="" title="Cardapio" icon="ion-pizza" href="#/page1/tab2/menu">
+            <ion-nav-view name="tab2"></ion-nav-view>
+        </ion-tab>
+        <ion-tab style="" title="Carrinho" icon="ion-android-cart" ng-if="$root.isVisible" href="#/page1/tab3/Relatorio"> 
+            <ion-nav-view name="tab3" ></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>
+
+<!-- class="tab-item hide ng-if="$root.isVisible"" -->

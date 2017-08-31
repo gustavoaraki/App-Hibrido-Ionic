@@ -1,0 +1,19 @@
+<ion-view style="" id="page5" title="Carrinho">
+    <ion-nav-bar class="bar-positive" </ion-nav-bar>
+    <ion-content class="has-header" overflow-scroll="true" padding="true">
+        <div style="text-align: left;">
+            <img src="img/VWc22mq7RCuyd2tXkPnO_carrinho2.png" height="auto" width="20%">
+        </div>
+        <ion-list style="">
+            <ion-item style="" ng-repeat="produto in $root.produtos" class="item-icon-left" ng-click="$root.DelForItem(produto)">
+                <i class="icon ion-ios-close-empty"></i>
+                    {{produto.NOME}}
+                <span class="item-note" style="color:green">
+                    R$ {{produto.PRECO}}
+                </span>   
+            </ion-item>
+        </ion-list>
+        <div style="height: 100px;" class="spacer"></div> 
+        <a class="button button-positive  button-block" style="font-weight:;" id="carrinho-button6" ui-sref="tabsController.formaDePagamento">Efetivar Compra!</a>
+    </ion-content>
+</ion-view>

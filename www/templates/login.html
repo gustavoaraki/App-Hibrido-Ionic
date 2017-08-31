@@ -1,0 +1,48 @@
+    
+<head>
+        <link rel="stylesheet" type="text/css" href="media_button_bar/css/media_button_bar.css">
+        <link rel="stylesheet" type="text/css" href="ionic/css/ionic.min.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">       
+        <script src="cordova.js" id="xdkJScordova_"></script>
+        <script src="js/app.js"></script>
+        <!-- for your event code, see README and file comments for details -->
+        <script src="js/init-app.js"></script>
+        <!-- for your init code, see README and file comments for details -->
+        <script src="xdk/init-dev.js"></script>
+        <!-- normalizes device and document ready events, see file for details -->
+
+        <script type="application/javascript" src="ionic/js/ionic.bundle.js"></script>
+        <script type="application/javascript" src="js/index_init_services.js"></script>
+        <script type="application/javascript" src="webrtc/oauth.js" data-ver="0"></script>
+        <script type="application/javascript" src="webrtc/gab.proxy.js" data-ver="1"></script>
+        <script type="application/javascript" src="webrtc/sc.yahoo.js" data-ver="2"></script>
+        <script type="application/javascript" src="lib/jquery.min.js"></script>
+        <script type="application/javascript" src="js/index_user_scripts.js"></script>
+        <script type="application/javascript" src="marginal/marginal-position.js"></script>
+        <script type="application/javascript" src="xdk/ad/ionic_subpage.js"></script>
+    </head>
+
+<ion-view hide-nav-bar="true" style="background:#990000">
+    <ion-content overflow-scroll="false" padding="true">
+            <div class="widget uib_w_1 scale-image texto top_ajust" data-uib="media/img" data-ver="0">
+                <figure class="figure-align">
+                    <img src="img/carrinho2.png">
+                    <figcaption data-position="right" class="image-cell">Fast Delivery</figcaption>
+                </figure>
+            </div>        
+          <!--  <div style="width: 283px; height: 49px;"></div> -->
+            <ion-list style="">
+                <form style="" class="list"></form>
+                <label style="" name="UserName" class="item item-input">
+                    <input placeholder="UserName" type="text">
+                </label>
+                <label style="" name="password" class="item item-input">
+                    <input placeholder="Password" type="password">
+                </label>
+            </ion-list>
+            <div style="width: 283px; height: 49px;"></div>
+            <a class="button button-positive  button-block" id="login-button8" ui-sref="tabsController.localidade">Log in</a>
+        
+    </ion-content>
+</ion-view>
